@@ -12,4 +12,4 @@ mono_crash.*.json
 /addons/
 /assets/
 /export/
-/deploy-branch/
+/deploy/
