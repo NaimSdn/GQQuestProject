@@ -11,3 +11,8 @@ func spawn_mob():
 
 func _spawn_mob_timer() -> void:
 	spawn_mob()
+
+
+func _on_player_health_depleted() -> void:
+	%GameOverScreen.visible = true
+	get_tree().paused = true
